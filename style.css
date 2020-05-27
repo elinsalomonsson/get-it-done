@@ -1,0 +1,375 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
+
+
+
+/* HR LINJE HEADER COACHING */
+.hr-light{
+    height: 40px;
+     width: 50%;
+     border-style: solid;
+     border-color: white;
+   margin-top: 50px;
+    
+    
+
+}
+
+/* INDEX HEADER*/
+.view{
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("people-2591874_960_720.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+    
+}
+
+        /* ÄNDRAR STORLEK PÅ VIEW FÖR SKÄRM MINDRE ÄN 865px */
+@media (min-width: 868px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+
+/* STYLAR KATEGORI I HEADER*/
+    .view-intro{
+    color: #fff;
+     
+    height: 450px;
+    padding-top: 80px;
+     
+}
+
+.h1-reponsive {
+    font-size: 40px;
+}
+
+        /* ÄNDRAR DROPDOWNI MENYN */
+.dropdown-menu{
+    border: hidden;
+    border-style:hidden;
+    background-color:#c7aa84;
+    font-size: 14px;
+    font-weight:bold;
+    font-family: "Ibarra Real Nova", serif";
+   
+   
+}
+
+/* ÄNDRAR STYLE PÅ NAVBAR LÄNKAR */
+.nav-link{
+height:40px;
+font-size: 15px;
+    font-weight: 600;
+    font-family: "Ibarra Real Nova", serif";
+  
+}
+
+/* ÄNDRAR STYLE PÅ RUBRIK I HEADER */
+ #rubrik_index{
+    font-family:  "montserrat";
+   font-size: 70px;
+    padding-top: 13%;
+    letter-spacing: 6px;
+     font-weight: 700
+}
+
+/* ÄNDRAR STYLE PÅ TEXT I HEADER UNDER RUBRIKEN */
+#header-p {
+    font-size: 25px;
+    font-family: "Ibarra Real Nova", serif;
+     letter-spacing: 5px;
+    
+   
+}
+
+/* ÄNDRAR STYLE PÅ RUBRIK I TEXT PÅ FÖRSTASIDAN*/
+.index-rubrik{
+    font-family: 'montserrat';
+    color:burlywood;
+    margin-bottom: 20px;
+   text-align: center;
+}
+
+/* ÄNDRAR STYLE PÅ UNDERTEXTEN PÅ FÖRSTASIDAN*/
+.index-subtext{
+    letter-spacing: 2px;
+    font-family: 'montserrat';
+    line-height: 29px;
+ 
+    
+}
+
+/* ÄNDRAR STYLE PÅ UNDERTEXT PÅ FÖRSTASIDAN*/
+.index-subtext2{
+    color:burlywood;
+    font-family: 'montserrat';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* ÄNDRAR STYLE PÅ UNDERTEXT PÅ FÖRSTASIDAN*/
+.index-subtext3{
+    font-family: 'montserrat';
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 25px;
+        
+}
+
+/* KNAPP PÅ FÖRSTASIDAN */
+.btn{
+   margin-left: 35%
+}
+
+
+/* FÖRSTA TEXT UNDER  HEADER INDEX */
+.justify{
+    font-size: 35px;
+    font-style: italic;
+    font-family: "lora";
+    
+}
+
+
+
+#button2{
+    float:right;
+    margin-right: 250px;
+   
+}
+
+ /* ÄNDRAR STYLE PÅ LÄNKAR UNDER KATERGORIER */
+.links{
+   font-family: "Ibarra Real Nova", serif;
+   
+       color:burlywood;
+        font-size: 19px;
+        font-weight: bold;
+      letter-spacing: 1px;
+        height: 50px;
+        margin-top:20px;
+    
+}
+    
+ /* ÄNDRAR STYLE PÅ HR STRECK I HEADER */
+.hr_header{
+  border: 1px solid white;
+  width:30%
+     
+}
+
+
+    /* CARD */
+    
+    .card {
+        font-family: "lora",serif;
+       margin-top: 70px;
+        margin-bottom: 20px;
+        font-size: 17px;
+        text-align: center;
+     border-style: hidden;
+       
+   
+    }
+
+     
+    /* TEXT CARD I INDEX */
+    .rubrik_kategori {
+        font-family: "lora",serif;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 30px;
+}
+
+
+
+
+
+/* HR STRECK STYLE NR SJU i HEM.php */
+ hr.style-seven {
+     overflow: visible;
+     height: 30px;
+     width: 90%;
+     border-style: solid;
+     border-color: black;
+     border-width: 1px 0 0 0;
+     border-radius: 20px;
+}
+ hr.style-seven:before {
+     display: block;
+     content: "";
+     height: 30px;
+     margin-top: -31px;
+     border-style: solid;
+     border-color: black;
+     border-width: 0 0 1px 0;
+     border-radius: 20px;
+}
+
+
+/* LÄNK TLL KONTAKTA MIG */
+
+.kontakta-mig {
+    border:none;
+    border-radius: 7px;
+
+    font-family: "Ibarra Real Nova", serif;
+   background: white;
+       color:burlywood;
+        font-size: 19px;
+        font-weight: bold;
+      letter-spacing: 1px;
+
+}
+
+/*---MYBUTTON KNAPP SOM TAR DIG HÖGT UPP PÅ SIDAN---*/
+ #myBtn {
+     display: none;
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     font-size: 14px;
+     border: none;
+     background-color: #c1a075;
+     color: white;
+     padding: 10px;
+     border-radius: 4px;
+}
+
+/* STYLAR NÄR MAN HÅLLER PILEN OVANFÖR PÅ KNAPPEN OSM TAR DIG HÖGST UPP PÅ SIDAN*/
+ #myBtn:hover {
+     background-color: burlywood;
+}
+
+/* STYLAR RUBRIK KONTAKTFORMULÄR */
+    #kontakt{
+        font-size: 40px;
+        padding-top: 40px;
+        font-family: montserrat;
+       text-align: center;
+    }
+    
+/*STYLAR TEXT STYCKET I FORMULÄRET */
+    .container-1 p{
+        padding-top: 20px;
+        line-height: 4px;
+        font-family: 'montserrat';
+        text-align: center;
+        /* ÄNDRAR STORLEK PÅ MINDRE ÄN 765px */
+
+}
+
+/* BILD VÅG LOGO I KONTAKT */
+.weight{
+    padding-right: 60px;
+}
+
+  /* STYLAR INMATSNINGS FORMULÄR */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px #956363;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+/* STYLAR SUBMIT KNAPP I FORMULÄR */
+input[type=submit] {
+  background-color: burlywood;
+  color: white;
+  border:none;
+  cursor: pointer;
+    height: 40px;
+        margin-top:10px;
+        margin-bottom:2px;
+    
+}
+
+/* STYLAR NÄR MAN FÖR MUSEN ÖVER SUBMIT KNAPP */
+input[type=submit]:hover {
+  background-color: #d4ae7b;
+}
+
+/* STYLAR CONTAINER i KONTAKT SIDAN */
+.container-1 {
+    margin:60px;
+  border-radius: 5px;
+  background-color: #e0c7a7;
+ 
+}
+
+/* SKAPAR TVÅ KOLUMNER SOM LÄGGER SIG BREDVID VARANDRA I KONTAKTSIDAN */
+.column {
+  float: left;
+  width: 50%;
+  padding: 70px;
+   
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* RESPONSIV LAYOUT I KONTAKTSIDAN- NÄR SKRÄMEN ÄR MINDRE ÄN 600PX BRED, GÖR ATT KOLUMMNERNA STAPLAS PÅ VARANDRA ISTÄLLET FÖR BREDVID VARANDRA */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* MARKERAR NYTT STYCKE, JUMBOTRON I PEROSNLIGUTVECKLING, STYLAR COLOR*/
+.jumbotron{
+    background-color: white;
+    
+}
+
+.linkbutton{
+    width:180px;
+    background: #2c2c2c;
+    color:white;
+    font-size: 14px;
+    border:6px;
+    border-radius: 5px;
+    border-width: 10px;
+    padding: 6px;
+    font-family: 'montserrat';
+    margin-left: 35px;
+}
+
+
+   
+ 
+
+ /* --FOOTER --*/
+
+    
+/*FOOTER BAKGRUND */
+    .footer {
+      background-color:gainsboro;
+        margin-bottom: 10px;
+     
+      
+    }
+    
+
+    .footertext {
+        font-size: 20px;
+        font-family: "Ibarra Real Nova", serif;
+        letter-spacing: 2px;
+    }
+
+.undertext_footer{
+  font-size: 15px;
+    font-family: "Ibarra Real Nova", sans-serif;
+}
